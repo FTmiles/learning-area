@@ -24,20 +24,19 @@
       select.onchange = setWeather;
 
       function setWeather() {
-        const choice = select.value;
 
-        switch(choice) {
+        switch(select.value) {
           case 'sunny':
-            para.textContent = 'It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream.';
+            para.textContent = 'Times to put on your bijini.';
             break;
           case 'rainy':
-            para.textContent = 'Rain is falling outside; take a rain coat and a brolly, and don\'t stay out for too long.';
+            para.textContent = 'go back upstairs and snore some more, old man.';
             break;
           case 'snowing':
-            para.textContent = 'The snow is coming down — it is freezing! Best to stay in with a cup of hot chocolate, or go build a snowman.';
+            para.textContent = 'The snow is coming downbuilding snowman, snowball fight is what your gonna do todai.';
             break;
           case 'overcast':
-            para.textContent = 'It isn\'t raining, but the sky is grey and gloomy; it could turn any minute, so take a rain coat just in case.';
+            para.textContent = 'Stock up on liquor its a crappy day today';
             break;
           default:
             para.textContent = '';
